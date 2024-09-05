@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/category.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="assets/small_monoscope.png" alt="" width="40px" height="40px"
+                    class="fixed-image"></a>
+            <input type="text" placeholder="Search..." class="search-input" id="searchInput"
+                onkeydown="handleSearch(event)">
+            <div class="navbar-nav">
+                <div class="dropdown" id="dropdown-indonesia">
+                    <a href="#" onclick="toggleDropdown('dropdown-indonesia', event)">Indonesia<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Celebrity</a>
+                        <a href="category.html">Politik</a>
+                        <a href="category.html">Agama</a>
+                        <a href="category.html">Berita Terkini</a>
+                        <a href="category.html">Alam</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-lifestyle">
+                    <a href="#" onclick="toggleDropdown('dropdown-lifestyle', event)">Lifestyle<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Beauty</a>
+                        <a href="category.html">Men</a>
+                        <a href="category.html">Women</a>
+                        <a href="category.html">Kids</a>
+                        <a href="category.html">Healthy</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-sports">
+                    <a href="#" onclick="toggleDropdown('dropdown-sports', event)">Sports<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Soccer</a>
+                        <a href="category.html">Basketball</a>
+                        <a href="category.html">Tennis</a>
+                        <a href="category.html">Badminton</a>
+                        <a href="category.html">Combat Sport</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-games">
+                    <a href="#" onclick="toggleDropdown('dropdown-games',event)">Games<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Dota 2</a>
+                        <a href="category.html">CSGO</a>
+                        <a href="category.html">Valorant</a>
+                        <a href="category.html">Mobile Legend</a>
+                        <a href="category.html">Others</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-arts">
+                    <a href="#" onclick="toggleDropdown('dropdown-arts',event)">Arts<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Printing</a>
+                        <a href="category.html">Collectibles</a>
+                        <a href="category.html">Watches</a>
+                        <a href="category.html">Hypebeast</a>
+                        <a href="category.html">Hobbies</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar-extra">
+                <a href="subscribe.html"><button>Subscribe</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="news">
+        <div class="top-container">
+            <div class="left">
+                <a href="news.html">
+                    <img src="assets/news/main-image-1.png" alt="">
+                    <h6 class="topic">Iraqi Government Says 16 Including Civilians Killed In US Strikes In Iraq</h6>
+                    <p class="content">
+                        US strikes in the west of Iraq against armed pro-Iran groups killed at least 16 people,
+                        including civilians, and wounded 23, Iraqi government spokesman Bassem al-Awadi said on
+                        Saturday.
+                    </p>
+                </a>
+
+            </div>
+            <div class="mid">
+                <a href="news.html">
+                    <img src="assets/news/main-image-2.png" alt="">
+                    <h6 class="topic">Zekenskyy Warns of Russian Nuclear Risks On Chernobyl</h6>
+                    <p class="content">
+                        Ukrainian President Volodymyr Zelenskyy warned on Friday that Russia's capture of a major
+                        nuclear power plant threatened a radiation catastrophe, as the country marked the
+                        anniversary of the 1986 Chernobyl nuclear disaster.
+                    </p>
+                </a>
+            </div>
+            <div class="right">
+                <a href="news.html">
+                    <div class="first">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                        <img src="assets/news/side-image-1.png" alt="">
+                    </div>
+                </a>
+                <hr>
+                <a href="news.html">
+                    <div class="second">
+                        <h6 class="topic">Why Physical Newspapers are Still Important Digital World</h6>
+                        <img src="assets/news/side-image-2.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-container">
+            <div class="row">
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+                <div class="border"></div>
+                <div class="content">
+                    <a href="news.html">
+                        <img src="assets/news/side-image-1.png" alt="">
+                        <h6 class="topic">Control Weights Through Food</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="ownership">
+                <a href="index.html"><img src="assets/footer.png" alt="footer"></a>
+            </div>
+
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+                <a href="#">Advertise</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/category.js"></script>
+</body>
+
+</html>

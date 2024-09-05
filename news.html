@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/news.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="assets/small_monoscope.png" alt="" width="40px" height="40px"
+                    class="fixed-image"></a>
+            <input type="text" placeholder="Search..." class="search-input" id="searchInput"
+                onkeydown="handleSearch(event)">
+            <div class="navbar-nav">
+                <div class="dropdown" id="dropdown-indonesia">
+                    <a href="#" onclick="toggleDropdown('dropdown-indonesia', event)">Indonesia<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Celebrity</a>
+                        <a href="category.html">Politik</a>
+                        <a href="category.html">Agama</a>
+                        <a href="category.html">Berita Terkini</a>
+                        <a href="category.html">Alam</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-lifestyle">
+                    <a href="#" onclick="toggleDropdown('dropdown-lifestyle', event)">Lifestyle<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Beauty</a>
+                        <a href="category.html">Men</a>
+                        <a href="category.html">Women</a>
+                        <a href="category.html">Kids</a>
+                        <a href="category.html">Healthy</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-sports">
+                    <a href="#" onclick="toggleDropdown('dropdown-sports', event)">Sports<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Soccer</a>
+                        <a href="category.html">Basketball</a>
+                        <a href="category.html">Tennis</a>
+                        <a href="category.html">Badminton</a>
+                        <a href="category.html">Combat Sport</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-games">
+                    <a href="#" onclick="toggleDropdown('dropdown-games',event)">Games<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Dota 2</a>
+                        <a href="category.html">CSGO</a>
+                        <a href="category.html">Valorant</a>
+                        <a href="category.html">Mobile Legend</a>
+                        <a href="category.html">Others</a>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown-arts">
+                    <a href="#" onclick="toggleDropdown('dropdown-arts',event)">Arts<img
+                            src="assets/icons/chevron-down.svg" alt=""></a>
+                    <div class="dropdown-content">
+                        <a href="category.html">Printing</a>
+                        <a href="category.html">Collectibles</a>
+                        <a href="category.html">Watches</a>
+                        <a href="category.html">Hypebeast</a>
+                        <a href="category.html">Hobbies</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar-extra">
+                <a href="subscribe.html"><button>Subscribe</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="news">
+        <h6 class="topic">Iraqi Government Says 16 Including Civilian Killed In US Strikes In Iraq</h6>
+        <p class="summary">
+            US strikes in the west of Iraq against armed pro-Iran groups killed at least 16 people,
+            including civilians, and wounded 23, Iraqi government spokesman Bassem al-Awadi said on
+            Saturday.
+        </p>
+        <img src="assets/news/main-image-1.png" alt="" class="news-image">
+        <div class="author">
+            <img src="assets/icons/user.svg" alt="">
+            <p>Rafif Adhirajasa</p>
+        </div>
+        <p class="news-date">Monday, 17 June 2024</p>
+
+        <div class="content">
+            <p>
+                US strikes in the west of Iraq against armed pro-Iran groups killed at least 16 people, including
+                civilians, and wounded 23, Iraqi government spokesman Bassem al-Awadi said on Saturday.
+                The strikes hit "locations in the Akashat and Al-Qaim regions, including areas where our security forces
+                are stationed", Awadi said in a statement.
+
+                The United States carried out the strikes on Friday in retaliation for the killing of three US military
+                personnel in a drone attack on a base close to Jordan's border with Syria and Iraq.
+            </p>
+            <br>
+            <p>
+                Washington blamed the unclaimed attack on the Islamic Resistance in Iraq, a loose alliance of pro-Iran
+                fighters opposed to US support for Israel in Gaza.
+
+                Tehran has denied any links to the attack.
+
+                On Friday, a White House spokesperson said the United States had "warned the Iraqi government before the
+                strikes".
+
+                But Baghdad denied there had been any coordination with Washington prior to the bombings.
+
+                Awadi accused the United States of "deception and distortion of facts" and called the suggestion "an
+                unfounded claim crafted to mislead international public opinion and evade legal responsibility" for what
+                he said was a breach of international law.
+
+                "This aggressive air strike will push the security situation in Iraq and the region to the brink of the
+                abyss," the spokesman said.
+            </p>
+            <br>
+            <p>
+                Awadi condemned the use of Iraq's territory as a "battleground for settling scores" and repeated his
+                government's call for the withdrawal of the US-led international anti-jihadist coalition in Iraq.
+
+                The coalition had "deviated from its assigned tasks and granted mandate," he said, and was "endangering
+                security and stability in Iraq".
+
+                There are roughly 2,500 US troops deployed in Iraq and about 900 in Syria as part of the coalition
+                formed in 2014 to fight the Islamic State group -- the year the jihadist group overran around a third of
+                Iraq.
+
+                Since mid-October, there have been more than 165 drone and rocket attacks against coalition troops in
+                Iraq and Syria, with most being claimed by the Islamic Resistance in Iraq.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="ownership">
+                <a href="index.html"><img src="assets/footer.png" alt="footer"></a>
+            </div>
+
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+                <a href="#">Advertise</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/news.js"></script>
+</body>
+
+</html>
